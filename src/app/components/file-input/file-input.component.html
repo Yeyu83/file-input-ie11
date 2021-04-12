@@ -1,0 +1,2 @@
+<input type="file" [formControl]="inputFile" (change)="showFile($event)">
+<img *ngIf="base64" [src]="base64">
