@@ -11,6 +11,8 @@ export class FileInputComponent {
 
   inputFile = new FormControl(null);
   base64 = '';
+  arrayOriginal = ['coche', 'barco', 'moto'];
+  arrayDePrueba = [...this.arrayOriginal];
 
   constructor(
     private _fileInputService: FileInputService
